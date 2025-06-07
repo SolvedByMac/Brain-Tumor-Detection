@@ -15,3 +15,19 @@ To improve the explainability of the model, I applied Grad-CAM (Gradient-weighte
 
 The training data was sourced from the publicly available Brain Tumor MRI Dataset on Kaggle, which has labeled MRI images suited for medical image analysis.
 
+## Dataset Used:
+
+The dataset used in this project is the Brain Tumor Classification (MRI) dataset, publicly available on Kaggle:
+🔗 https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
+
+It consists of T1-weighted contrast-enhanced MRI images classified into four categories: No Tumor, Glioma Tumor, Meningioma Tumor and Pituitary Tumor
+
+The dataset is organized into class-specific folders, with each image stored in .jpg format. It contains thousands of high-quality MRI slices suitable for training deep learning models for medical image classification.
+
+For this project:
+
+* All images were resized to 224×224 pixels to match the input requirements of CNN models.
+
+* Pixel values were normalized to a 0–1 range.
+
+
