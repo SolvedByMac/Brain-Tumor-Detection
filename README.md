@@ -30,4 +30,6 @@ For this project:
 
 * Pixel values were normalized to a 0–1 range.
 
+* 3
+
 
